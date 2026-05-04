@@ -88,3 +88,37 @@ img {
     background-color: var(--very-dark-grayish-blue);
     color: var(--white);
 }
+
+@media (width: 800px) {
+    section {
+        display: grid;
+        justify-content: center;
+        padding: 2%;
+        gap: 5px;
+        width: 80svw;
+        grid-template-columns: 1fr;
+        background-color: var(--white);
+    }
+    .review-1 {
+        background-color: var(--light-gray);
+    }
+
+    .review-2 {
+        background-color: var(--light-grayish-blue);
+    }
+
+    .review-3 {
+        background-color: var(--moderate-violet);
+        color: var(--white);
+    }
+
+    .review-4 {
+        background-color: var(--very-dark-blackish-blue);
+        color: var(--white);
+    }
+
+    .review-5 {
+        background-color: var(--very-dark-grayish-blue);
+        color: var(--white);
+    }
+}
